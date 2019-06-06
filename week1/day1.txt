@@ -1,0 +1,8 @@
+ECHO is on.
+introduction to programing
+creat folder using CMD
+front end and back end
+computer programing
+CMD
+
+
