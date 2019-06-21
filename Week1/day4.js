@@ -14,3 +14,12 @@ for(var i=0; i < 3; i++)
 var food = ["pasta", "brade","mmm"];
 console.log(fruits.length); 
 
+//ten
+function isten(){
+  for (var i = 0; i < 10; i++) {
+    console.log(i)
+    
+      
+    }
+}
+isten()
