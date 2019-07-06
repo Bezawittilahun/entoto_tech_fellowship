@@ -1,0 +1,10 @@
+.container { 
+  display: flex;
+  display:block;
+  }
+.red {
+  background: orangered;
+  flex-grow: 1;
+}
+#container {  display: flex;}
+ 

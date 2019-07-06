@@ -1,0 +1,36 @@
+*{
+    marging: 0;
+    padding: 20;
+
+}
+section{
+      background:white;
+      color: grey;
+      padding:20px
+      display:flex;
+      flex-direction:row; 
+} 
+body {
+    background-color: #93B874;
+}
+ div{
+    background: blue;
+    display: inline;
+    margin: auto;
+    width: 100px;
+}
+ ul{
+   background:blue 
+   margin:2000;
+   padding:2000;
+   list-style-type:none;
+}
+ li{
+    display: inline-block;
+    margin-right:20px;
+
+}
+ footer{
+     background:black;
+     padding:20px 20px;
+}
