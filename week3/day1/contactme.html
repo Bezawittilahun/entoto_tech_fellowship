@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<title>Contact Me</title>
+ <style type="text/css">
+        .style
+        {
+            height: 19px;
+			font-style:italic;
+			color:navy;
+        }
+    </style>
+	 <script type="text/javascript">
+	 function showmessage()
+	 {
+	   var fullname= document.getElementById("name").value;
+	   var message= document.getElementById("message").value;
+	   var email= document.getElementById("email").value;
+	   alert("Hi "+ fullname+", \nYour message is\n"+message+"\nI will Contact you with your email: "+email);
+	   document.getElementById("name").value="";
+	   document.getElementById("message").value="";
+	   document.getElementById("email").value="";
+	 }
+	 </script>
+</head>
+<body>
+<div id="wrapper">
+<div id="container">
+<div class="title">
+	<h1 style="text-align:center; font-style:italic;">Wellcome to Bezawit's  Personal Website</h1>
+</div>
+<div class="header" style="text-align:center">
+    <img src="picture/natural.jpg" width="1005" height="340" alt="header" /> 
+    <div style="float:right">
+    </div>
+            </div>
+<div class="navigation">
+	<a href="index.html" >Home</a>
+	<a href="aboutme.html" > About Me</a>
+	<a href="myphotos.html">My Photo Galary</a>
+	<a href="myvideos.html">My Video Gallery</a>
+    <a href="hobby.html">Hobby and Interest</a>
+	<a href="contactme.html" id="active">Contact Me</a>
+</div>
+	<div class="clearer"></div>
+<div class="main" id="two-columns">
+	<div class="col2">
+		<div class="left">
+			<div class="content">
+            <h3 style="font-style:italic">Want leave a message for me?</h3>
+		<fieldset>
+			<legend>Write your message</legend>
+           <form>		
+		   <table class="tbl">
+		     <tr>
+		        <td style="text-align:right">Name</td>
+				<td><input type="text" id="name"></td>
+             </tr>	
+             <tr>
+                 <td style="text-align:right"> Your message</td>
+				 <td> <textarea  id="message" placeholder="Your comment is valuable " style ="height:200px; width:350px"></textarea>
+			 <tr>
+			    <td style="text-align:right">Your email</td>
+				<td> <input type="email" id="email"></td>
+			 </tr>
+			 <tr><td colspan="2" style="text-align:center"><input type="button" onclick="showmessage()" value="Send Message"/></td></tr>
+		   </table>
+            </form>
+           </fieldset>	
+         <br />
+        <div>
+		<h3  style="font-style:italic"> Or call me on my phone</h3>
+		<img src="picture/phone.jpg" width="24" height="24" alt="mphonepic" />+251-90 000 00 00 <br />
+		<img src="picture/phone2.jpg" width="24" height="24" alt="phonepic" />+251-000 00 00 00 <br />
+        </div>		 
+          </div>
+		</div>
+		<div class="right">
+			<div class="content">
+				<h2>My Favourite Links </h2>
+				<ul class="block">
+					<li><a href="http://www.w3schools.com" target="_blank">w3schools</a></li>
+					<li><a href="http://zalone.com" target="_blank">Tv Series</a></li>
+					<li><a href="https://aljazira.com/frontline" target="_blank">Documentary</a></li>
+					<li><a href="https://letmewatchthis.com" target="_blank">Films</a></li>
+					<li><a href="http://www.thedoctorstv.com" target="_blank">Health TV</a></li>
+					<li><a href="http://www.books.google.com" target="_blank">Books</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clearer">
+</div>
+	</div>
+	<div class="bottom">
+		<div class="left" >
+			<table>
+			<tr>
+				<td> <a href="https://www.facebook.com/"> <img src="picture/fb.jpg" width="24" height="24" alt="fblogo" /></a>|
+				<a href="https://www.twitter.com/"> <img src="picture/tw.jpg" width="24" height="24" alt="tweeterlogo" /> </a></td>
+			</tr>
+			</table>						
+		</div>
+		<div class="right">
+			<table>
+			<tr>
+				<td class="style1">It's not the load that breaks you down, it's the way you carry it<sub> &nbsp; Lou Holtz</sub></td>
+			</tr>
+			</table>
+		</div>
+		<div class="clearer"></div>
+	</div>
+	<div class="footer">
+		<div class="left">
+			            Copyright © 2019</div>
+		<div class="right">
+			Designed By : Bezawit Tilahun
+		</div>
+		<div class="clearer"></div>
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+	
+	
